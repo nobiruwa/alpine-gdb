@@ -3,4 +3,4 @@
 docker run \
        -it \
        --cap-add sys_ptrace \
-       docker-alpine-gdb $@
+       nobiruwa/alpine-gdb $@
